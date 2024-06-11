@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;900&display=swap");
+@media only screen and (max-width: 1140px) {
+  .container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+  .btn-action {
+    width: 100%;
+  }
+  .btn-action > button {
+    width: 100%;
+  }
+  .modal-page > .modal-card {
+    width: 100%;
+  }
+  .modal-page > .modal-card > .modal-topbar {
+    width: 100%;
+  }
+  .product-button {
+    width: 100%;
+  }
+  .recover-app {
+    width: 100%;
+  }
+  .recover-app > .container {
+    width: 100%;
+  }
+}
+@media print {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&display=swap");
+  * {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+  }
+  .container {
+    width: 100%;
+  }
+  .printable-screen {
+    display: none;
+  }
+  .ticket-page {
+    width: 100%;
+  }
+  .ticket-page > .ticket-page-content {
+    padding: 0;
+    border: 0;
+  }
+  .ticket-page > .ticket-page-content > .ticket-item > div {
+    font-size: 15.75px;
+    padding: 5px 0;
+    font-weight: 700;
+  }
+  .ticket-page > .ticket-page-content > .ticket-item > div > div {
+    color: #000;
+    font-size: 15.75px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+  }
+  .ticket-page > .ticket-page-content > .ticket-item > .ticket-address > div:nth-of-type(2) {
+    font-size: 15px;
+    padding: 5px 0;
+  }
+  .ticket-page > img {
+    display: none;
+  }
+  .ticket-note {
+    flex-direction: column;
+  }
+  .ticket-note > div:nth-of-type(2) {
+    font-size: 14px;
+  }
+  .ticket-note > span {
+    font-size: 15.75px !important;
+  }
+}/*# sourceMappingURL=card-responsive.css.map */
